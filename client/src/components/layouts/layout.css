@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Jost', Arial, Helvetica, sans-serif;
+}
+
+::selection {
+    color: white;
+    background-color: #bc986b;
+}
+
+/* ----------------------- Navbar ---------------------------- */
+
+a {
+    text-decoration: none;
+}
+
+.nav-link,
+a {
+    color: #151515;
+}
+
+.nav-link:hover,
+.upper-head i:hover {
+    color: #bc986b;
+}
+
+.nav-link:active{
+    color: #ffc662;
+}
+
+.dropdown-item:focus, 
+.dropdown-item.active {
+  background-color: #bc986b !important; /* Your desired background color */
+  color: white !important; /* Your desired text color */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #31323c;
+    color: white;
+    padding-top: 20px;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #bc986b;
+  }
+  
+  footer i {
+    color: #bc986b;
+    margin-right: 10px;
+  }
+  
+  footer i:hover {
+    color: #ffc662;
+  }
+  
+  /* Quick Links */
+  .footer-links {
+    padding: 0;
+  }
+  
+  .footer-links li {
+    list-style-type: none;
+    margin: 8px 0;
+  }
+  
+  .footer-links li a {
+    font-size: 16px;
+  }
+  
+  /* Input Styling */
+  .footer-input {
+    width: 60%;
+    border-radius: 0;
+    background-color: #494a53;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+  }
+  
+  .footer-input::placeholder {
+    color: #dcdcdc;
+  }
+  
+  /* Button Styling */
+  .footer-button {
+    border: none;
+    height: 44px;
+    background-color: #bc986b;
+    color: white;
+    padding: 0 15px;    
+    margin-left: 10px;
+  }
+  
+  .footer-button:hover {
+    background-color: #ffc662;
+  }
+  
+  /* Social Icons */
+  .footer-icon {
+    font-size: 24px;
+    margin: 0 8px;
+  }
+  
+  .footer-icon:hover {
+    color: #ffc662;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    footer {
+      text-align: center;
+    }
+  
+    .footer-input {
+      width: 70%;
+    }
+  
+    .footer-button {
+      margin: 10px 0;
+      width: 100px;
+    }
+  }
+  
+
+  .menu-link:hover {
+    color: #bc986b !important;
+    text-decoration: none;
+  }
+  
+  .card-header {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .card-body p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  

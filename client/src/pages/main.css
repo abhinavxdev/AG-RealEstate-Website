@@ -1,0 +1,88 @@
+a {
+    text-decoration: none;
+    color: #151515;
+}
+
+.card-upper-head p {
+    color: #bc986b;
+}
+
+/* ------------------- Card About Container ------------------ */
+
+.card-about,
+.card-about a {
+    color: #5f5f5f;
+}
+
+.card-about i {
+    color: #bc986b;
+}
+
+.card-about ul li {
+    list-style: none;
+    text-align: left;
+}
+
+/* ------------------- Card About Section Headings ------------------ */
+
+.card-about-head {
+    color: #bc986b;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: white;
+}
+
+/* ------------------- Card Left Section Contact Form ------------------ */
+
+.card-form input,
+.card-form textarea {
+    background-color: #494a53;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+/* ------------------- Card Right Section Contact Form ------------------ */
+
+.about-right-form {
+    position: sticky;
+    top: 10px;
+}
+
+.about-right-form input,
+.about-right-form textarea {
+    background-color: #494a53;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+/* ----------------------- Latest Properties ---------------------------- */
+
+.latest-prop i {
+    color: #bc986b;
+}
+
+.latest-prop-col,
+.latest-prop .col-6 {
+    color: #5f5f5f;
+}
+
+.latest-prop-loc {
+    color: #bc986b;
+}
+
+.testi-cards i {
+    color: #ffc662;
+}
+
+.lazyload-wrapper {
+  width: 100%; /* Ensures full width */
+  height: 250px;
+  overflow: hidden; /* Prevents overflow issues */
+  display: flex;
+  justify-content: center;
+}
